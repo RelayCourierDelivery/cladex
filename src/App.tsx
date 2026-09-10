@@ -25,6 +25,7 @@ import {
   X,
 } from 'lucide-react';
 import CladexBackground from './components/CladexBackground';
+import FreightDashboard from './components/FreightDashboard'
 
 type ViewName = 'relays' | 'workgroups' | 'review' | 'live';
 type ProfileType = 'Claude' | 'Codex';
