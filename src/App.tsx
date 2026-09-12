@@ -27,7 +27,8 @@ import {
 import CladexBackground from './components/CladexBackground';
 import FreightDashboard from './components/FreightDashboard'
 
-| 'freight'
+type ViewName = 'relays' | 'workgroups' | 'review' | 'live' | 'freight';
+
 
 type ProfileType = 'Claude' | 'Codex';
 type RelayType = 'claude' | 'codex';
